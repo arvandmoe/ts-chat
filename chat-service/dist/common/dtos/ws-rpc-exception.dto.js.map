@@ -1,0 +1,1 @@
+{"version":3,"file":"ws-rpc-exception.dto.js","sourceRoot":"","sources":["../../../src/common/dtos/ws-rpc-exception.dto.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,yDAA2C;AAC3C,yDAAoD;AAEpD,MAAa,iBAAkB,SAAQ,iCAAc;IAIjD,YAAmB,GAAW,EAAE,KAAsB;QAClD,KAAK,CAAC,KAAK,CAAC,CAAC;QACb,IAAI,CAAC,GAAG,GAAG,GAAG,CAAC;IACnB,CAAC;CACJ;AANG;IADC,0BAAM,EAAE;;8CACU;AAFvB,8CAQC"}

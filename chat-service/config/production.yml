@@ -1,0 +1,11 @@
+app:
+  port: 3000
+
+jwt:
+  issuer: "example.com"
+  secretKey: "SECRET"
+  lifetime: 43200
+
+chat:
+  history: 50
+  maxMessagePerMinute: 10

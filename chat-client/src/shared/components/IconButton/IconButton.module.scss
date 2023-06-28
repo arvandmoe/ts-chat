@@ -1,0 +1,24 @@
+.iconContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 8px;
+    background: #1f222b;
+    opacity: 0.5;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    border-color: transparent;
+
+    &:hover {
+        background: #2D313E;
+        box-shadow: 0px 0px 10px#2D313E;
+    
+    }
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+}

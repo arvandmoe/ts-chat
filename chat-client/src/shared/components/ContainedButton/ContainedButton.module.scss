@@ -1,0 +1,29 @@
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+
+    width: 100%;
+    background: #0bf894;
+    opacity: 0.5;
+    border-radius: 4px;
+    border-color: transparent;
+
+    &:hover {
+        box-shadow: 0px 0px 20px rgba(11, 248, 148, 0.5);
+    }
+}
+
+.btnActive {
+    opacity: 1;
+}
+
+.btnTxt {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #121319;
+}

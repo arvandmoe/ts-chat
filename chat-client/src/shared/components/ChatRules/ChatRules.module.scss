@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 16px;
+    height: 80%;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    padding: 16px;
+    gap: 8px;
+    width: 100%;
+    height: 72px;
+    background: #121319;
+    border-radius: 8px;
+}
+
+.txt {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #909090;
+}
+
+.button {
+    font-family: 'Montserrat';
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    width: 100%;
+    color: #909090;
+    font-weight: 600;
+    font-size: 12px;
+    height: 40px;
+    background: #1f222b;
+    border-radius: 4px;
+    cursor: pointer;
+}

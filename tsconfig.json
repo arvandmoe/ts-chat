@@ -1,0 +1,65 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "strict": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": false,
+    "strictNullChecks": true,
+    "module": "esnext",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "target": "ES2016",
+    "sourceMap": true,
+    "inlineSources": false,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "plugins": [
+      {
+        "type": "raw"
+      }
+    ],
+    "paths": {
+      "*": [
+        "src/*",
+        "types/*.d.ts"
+      ]
+    },
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ],
+    "types": [
+      "cypress"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "src/**/*",
+    "types/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    ".next",
+    "dist"
+  ]
+}

@@ -1,0 +1,21 @@
+.root {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.txt {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #909090;
+}

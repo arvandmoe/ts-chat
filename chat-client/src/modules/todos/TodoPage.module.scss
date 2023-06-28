@@ -1,0 +1,131 @@
+@import "../../../styles/index.scss";
+
+.container {
+    @include container();
+}
+
+.main {
+    @include main();
+}
+
+.title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 4rem;
+    color: gray;
+    opacity: 0.3;
+}
+
+.bar {
+    height: 1rem;
+    background-color: #412b15;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem;
+    border-width: 1px 0px 1px 0px;
+    border-style: dotted;
+
+    & p {
+        text-align: left;
+    }
+    & input {
+        accent-color: $primary-color;
+    }
+    & input,
+    span {
+        margin: 0rem 1rem;
+    }
+    &:hover {
+        color: $primary-color;
+    }
+}
+
+.itemWrap {
+    display: flex;
+    align-items: center;
+}
+
+.done {
+    text-decoration: line-through;
+    color: $primary-color;
+}
+
+.box {
+    margin-top: 2rem;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+    @include sm {
+        width: calc(100% - 16px);
+    }
+    @include lg {
+        width: 600px;
+    }
+}
+
+.input {
+    padding: 1rem 2rem;
+    width: 100%;
+    text-decoration: none;
+    border: none;
+    font-size: large;
+
+    &::placeholder {
+        font-style: italic;
+    }
+
+    &:active,
+    :focus {
+        border: none;
+    }
+}
+
+.optionsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: #f8f8f8;
+    font-size: small;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.leftItems {
+    font-size: medium;
+}
+
+.btn {
+    all: unset;
+    cursor: pointer;
+    font-size: medium;
+    padding: 0rem 0.2rem;
+}
+
+.btnActive {
+    all: unset;
+    cursor: pointer;
+    font-size: medium;
+    padding: 0rem 0.2rem;
+    font-weight: bold;
+}
+
+.btnClear {
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+
+    &:hover {
+        color: white;
+        background-color: #b20600;
+    }
+}
+
+.error {
+    padding: 2rem;
+    font-weight: bold;
+    font-size: 24px;
+    color: red;
+}
